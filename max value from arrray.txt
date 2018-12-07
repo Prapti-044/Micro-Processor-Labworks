@@ -1,0 +1,39 @@
+
+; You may customize this and other start-up templates; 
+; The location of this template is c:\emu8086\inc\0_com_template.txt
+
+org 100h
+
+; add your code here 
+
+                              
+
+lea si, a
+mov al, [si]
+mov res, al
+mov cx, len
+
+loop1:
+
+inc si
+mov al, [si]
+cmp al, res
+ja swap
+
+l1:
+loop loop1
+jmp last
+
+swap:
+
+mov al, [si]
+mov res, al
+jmp l1
+
+last:
+ret 
+a db 12H,56H,7H,79H,99H    
+len dw ($-a)
+
+res db ?
+end
