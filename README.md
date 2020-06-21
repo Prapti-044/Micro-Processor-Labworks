@@ -37,7 +37,7 @@ Install pre-requisite dependencies
 
 Any kind of text editor
 
-## Authors
+## Author
 
 Shadmaan Hye Prapti
 
