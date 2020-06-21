@@ -5,6 +5,8 @@ A repository based on microprocessor laboratory wokrs.
 
 A microprocessor is a computer processor that incorporates the functions of a central processing unit on a single (or more) integrated circuit (IC)[1][2] of MOSFET construction. The microprocessor is a multipurpose, clock driven, register based, digital integrated circuit that accepts binary data as input, processes it according to instructions stored in its memory and provides results (also in binary form) as output. Microprocessors contain both combinational logic and sequential digital logic. Microprocessors operate on numbers and symbols represented in the binary number system.
 
+![image1](https://user-images.githubusercontent.com/31363580/85218146-42d81300-b3b9-11ea-999a-754ab13d6a65.jpg)
+
 ## Learn About
 
 Simple programming through emulator
@@ -12,7 +14,7 @@ asm files and how to compile the codes in asm files
 Initialization
 
 '''
-ORG     100H
+    ORG     100H
     
     MOV     AX,9D
     MOV     BX,AX
